@@ -19,7 +19,7 @@ internal class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             .HasColumnName("is_correct");
         builder.Property(x => x.CreatedOn)
             .HasColumnName("created_on");
-        builder.Property(x =>x.ModifiedOn)
+        builder.Property(x => x.ModifiedOn)
             .HasColumnName("modified_on");
         
         // Set default values

@@ -16,7 +16,7 @@ public class TriviaBuddyContextFactory : IDesignTimeDbContextFactory<TriviaBuddy
         var connectionString = configuration.GetConnectionString("TriviaBuddyConnectionString");
         if (string.IsNullOrWhiteSpace(connectionString))
         {
-            throw new ArgumentException("Trivia Buddy connection string is missing");
+            throw new ArgumentException("Connection string 'TriviaBuddyConnectionString' is missing");
         }
         var optionsBuilder = new DbContextOptionsBuilder<TriviaBuddyContext>();
         optionsBuilder.UseNpgsql(connectionString, npOptions => npOptions.MigrationsHistoryTable("__EFMigrationsHistory", "TriviaBuddy"));

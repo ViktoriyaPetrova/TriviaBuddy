@@ -17,7 +17,7 @@ internal class CategoryConfiguration : IEntityTypeConfiguration<Category>
             .HasColumnName("description");
         builder.Property(x => x.CreatedOn)
             .HasColumnName("created_on");
-        builder.Property(x =>x.ModifiedOn)
+        builder.Property(x => x.ModifiedOn)
             .HasColumnName("modified_on");
         
         // Set default values

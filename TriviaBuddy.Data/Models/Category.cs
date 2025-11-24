@@ -14,6 +14,6 @@ public class Category
     public DateOnly ModifiedOn { get; set; }
     
     // Navigation properties
-    public ICollection<Question> Questions { get; } = new List<Question>(); // N:N
+    public ICollection<Question> Questions { get; } = []; // N:N
 
 }

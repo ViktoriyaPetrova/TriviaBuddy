@@ -24,7 +24,7 @@ public class QuestionConfiguration : IEntityTypeConfiguration<Question>
             .HasColumnName("media_url");
         builder.Property(x => x.CreatedOn)
             .HasColumnName("created_on");
-        builder.Property(x =>x.ModifiedOn)
+        builder.Property(x => x.ModifiedOn)
             .HasColumnName("modified_on");
         
         // Set default values
