@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriviaBuddy.Api", "TriviaBuddy.Api\TriviaBuddy.Api.csproj", "{643495E6-60C2-47A6-B7D1-F1912737CB1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriviaBuddy.Data", "TriviaBuddy.Data\TriviaBuddy.Data.csproj", "{BA28E518-72AF-40AD-A3F5-F75F3FA3F501}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{643495E6-60C2-47A6-B7D1-F1912737CB1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{643495E6-60C2-47A6-B7D1-F1912737CB1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{643495E6-60C2-47A6-B7D1-F1912737CB1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA28E518-72AF-40AD-A3F5-F75F3FA3F501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA28E518-72AF-40AD-A3F5-F75F3FA3F501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA28E518-72AF-40AD-A3F5-F75F3FA3F501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA28E518-72AF-40AD-A3F5-F75F3FA3F501}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
